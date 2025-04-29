@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <link href="example.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css">-->
+    <!-- Si possono mettere anche più stylesheet in base alla risoluzione -->
+<!--
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+-->
+</head>
+<body>
+<!-- Barra di navigazione -->
+    <nav class="top-nav">
+        <ul class="nav-links">
+            <li class="menu-item"><a href="#">Subscribe/Donate</a></li>
+            <li class="menu-item"><a href="#">About the Gazette</a></li>
+            <li class="menu-item"><a href="#">Where to Get the Gazette</a></li>
+            <li class="menu-item"><a href="#">Advertising</a></li>
+            <li class="menu-item"><a href="#">Masthead</a></li>
+            <li class="menu-item"><a href="#">&#x1F50E;&#xFE0E;</a></li>
+        </ul>
+        <div class="nav-search">
+            <p><a href="#">&equiv; Menu</a></p>
+            <p><a href="#">&#x1F50E;&#xFE0E;</a></p>
+        </div>
+    </nav>
+
+    <header class="site-header">
+        <p class="header-title"><a href="#" rel="home">The Lorem Ipsum Gazette</a></p>
+        <p class="site-description">The Nation's Oldest Newspaper&trade; &bullet; Editor: Tommaso Bellucci &bullet; Founded 2025 by Bellucci Tommaso</p>
+    </header>
+
+    <nav class="secondary-menu">
+        <ul class="secondary-menu-links">
+            <li class="secondary-menu-item"><a href="#">The Fortnightly Rant</a></li>
+            <li class="secondary-menu-item"><a href="#">The Alleged News&reg;</a></li>
+            <li class="secondary-menu-item"><a href="#">Mash Notes, Hate Mail & Other Correspondence</a></li>
+            <li class="secondary-menu-item"><a href="#">The Northcountry Chronicle</a></li>
+            <li class="secondary-menu-item"><a href="#">Page 8</a></li>
+        </ul>
+    </nav>
+
+<!-- Informazioni giornale -->
+
+    <div class="site-content">
+        <div class="main-content">
+            <h3 class="main1">The Nation's Oldest Newspaper.</h3>
+            <h2 class="main2"><strong>A svelte, one-ounce packet of unfettered, non-fiction news.</strong></h2>
+            <p class="main3"><strong>Distributed for free by people just like you.</strong></p>
+            <p class="main3">This map shows where you can get the latest copy of the <strong><em>Gazette</em></strong></p>
+            <p class="main3"><strong><em>You can be part of our unique distribution system</em></strong></p>
+            <p class="main3"><a class="button" href="#">Learn More</a></p>
+        </div>
+        <div class="newHampMap">
+            <p>
+                <a href="#">
+                    <img src="images/map768.svg" alt="Map of New Hampshire" id="mapHemp">
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <hr style="width: 100%;height: 20px;border-width: 0px; background-color: #222222;margin: 0;">
+
+    <div class="latestArticles">
+        <div class="articleColumn">
+            <h2 id="startColumn">Read the Latest Paper Online<br> -=&approx;=-</h2>
+            <article class="colArticle">
+                <header class="firstCol">
+                    <h2><a href="#">The LIPSUM-Apocalypse is Here</a></h2>
+                    <p class="articleInfo"><time datetime="2025-04-28">April 28, 2025</time> | The Lorimgly Ipsum</p>
+                </header>
+                <img src="images/firstArticle.svg" alt="Satirical image">
+                <p>Praesent venenatis dolor sit amet tortor blandit finibus. Nullam vel dui massa. Aenean pharetra dignissim eros. Nullam feugiat ipsum ac ligula feugiat mollis. Aenean blandit ornare libero, ut gravida purus malesuada et. Curabitur dignissim vehicula lobortis. Curabitur lobortis nisl at massa consectetur aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla et magna ac tortor ornare tempor. Donec mattis elit ac ipsum ultrices consequat. Cras finibus metus augue, ut convallis erat dapibus sit amet. Curabitur euismod massa nec velit molestie molestie. Donec consequat sapien a massa mollis, eu accumsan neque mattis. Pellentesque faucibus suscipit diam, quis maximus nibh porttitor a.</p>
+                <div class="readMore">
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+            <article class="colArticle">
+                <header class="firstCol">
+                    <h2><a href="#">LOREMVoter's Lament (a ipsum dream)</a></h2>
+                    <p class="articleInfo"><time datetime="2025-04-28">April 28, 2025</time> | The Alleged News&reg;</p>
+                </header>
+                <p>
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce elementum tempor turpis vitae sagittis. Vivamus quis aliquet tortor. Integer sodales, nibh vitae tempus ultricies, libero diam tincidunt mi, ac semper ex ipsum in urna. Integer aliquam mi libero, in hendrerit lorem auctor sed. Integer a nisl ut ligula ullamcorper dignissim accumsan a libero. Curabitur quis sem vel nulla tristique eleifend. Etiam sollicitudin lacinia consectetur. Pellentesque suscipit quam lectus, quis varius eros vehicula eu. Donec sit amet semper diam, sit amet vestibulum nunc. Proin tincidunt mattis massa at ornare. Sed varius nisl ut dolor malesuada, et fringilla libero interdum.
+                </p>
+                <div class="readMore">
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+
+        </div>
+        <div class="articleColumn">
+            <p style="margin: 0 0 33px; font-size:22px"><em><strong>Page 8</strong></em><p>
+            <article class="colArticle">
+                <header>
+                    <h2><a href="#">Mon, Apr 28</a></h2>
+                </header>
+                    <p>
+                        2001&mdash;Aliquam sit amet metus sit amet lectus hendrerit ultricies eu vitae metus. Donec volutpat, diam sit amet semper facilisis, nisl ante ornare nibh...
+                    </p>
+            <div class="readMore">
+                <a href="#">Read More</a>
+            </div>
+            </article>
+            <article class="colArticle">
+                <header>
+                    <h2><a href="#">Sun, Apr 27</a></h2>
+                </header>
+                <p>
+                    2017&mdash;Nullam interdum varius leo ac elementum. Suspendisse vitae sapien leo. Aenean ut lorem quis velit cursus pharetra. Proin volutpat nulla velit, vel auctor augue semper ut...
+                </p>
+                <div class="readMore">
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+        </div>
+    </div>
+<!-- main articless -->
+    <div class="mainArticles">
+        <article class="colArticle">
+            <header>
+                <h2>Lipsum is bringing latin back into vogue for the rest of us</h2>
+                <p class="articleInfo">
+                    <time datetime="2025-04-28">April 28, 2025</time> | The Northcountry Chronicle
+                </p>
+            </header>
+            <p>
+                Aenean blandit ornare libero, ut gravida purus malesuada et. Curabitur dignissim vehicula lobortis. Curabitur lobortis nisl at massa consectetur aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla et magna...
+            </p>
+            <div class="readMore">
+                <a href="#">Read More</a>
+            </div>
+        </article>
+        <article class="colArticle">
+            <header>
+                <h2>A Grand Lipsum from Rome Accuses Us of Error, perchance</h2>
+                <p class="articleInfo">
+                    <time datetime="2025-04-28">April 28, 2025</time> | The Northcountry Chronicle
+                </p>
+            </header>
+            <p>
+                Donec mattis elit ac ipsum ultrices consequat. Cras finibus metus augue, ut convallis erat dapibus sit amet. Curabitur euismod massa nec velit molestie molestie. Donec consequat sapien a massa mollis...
+            </p>
+            <div class="readMore">
+                <a href="#">Read More</a>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
