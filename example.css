@@ -270,3 +270,200 @@ header{
 .mainArticles article{
     padding: 0 10px 0 10px;
 }
+
+/* Downloading */
+
+#downloadArt{
+    padding: 40px 35px;
+}
+
+#downloadArt h2{
+    font-size: 30px;
+    margin: 0 0 20px;
+    font-weight: 300;
+}
+
+#volumeTitle{
+    text-align: center;
+    font-size: 22px;
+    margin: 0 0 18px;
+    padding: 0;
+}
+
+#volumeEntries{
+    text-align: left;
+}
+#volumeEntries a{
+    text-decoration: none;
+    color: #222222;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+#articleLink{
+    text-decoration: none;
+    color: #0084B4;
+}
+
+#downloadArt p{
+    font-size: 17px;
+}
+
+#newspaperPage{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+/* Section 6 */
+.section6{
+    background-image: url("images/politics.svg");
+    padding: 100px 35px;
+}
+
+
+div.section6  h2{
+    font-size: 30px;
+}
+
+/* Cartoon Section */
+.cartoonsSection{
+    padding: 40px 30px;
+}
+
+.cartoonsSection h3{
+    font-size: 20px;
+    margin: 0 0 20px;
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-transform: none;
+    color: #3A3A3A;
+}
+
+.cartoonsSection h1{
+    font-size: 40px;
+    margin: 0 0 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-transform: none;
+}
+.cartoonsSection p{
+    text-align: center;
+    margin: 0 0 0.8em;
+    color: #3A3A3A;
+}
+
+.cartoonsSection a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 8px 15px;
+    border: 2px solid #222222;
+    font-size: .8em;
+}
+
+/* Quote Section */
+.quoteSection{
+    background-color: #222222;
+    padding: 40px 35px;
+}
+.quoteSection p{
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 0.8em;
+    font-weight: 400;
+}
+
+/* Section 8 */
+.section8{
+    padding: 40px 35px;
+
+}
+
+.section8 h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: #3A3A3A;
+}
+
+.section8 p{
+    font-weight: 400;
+    color: #3A3A3A;
+    margin: 0;
+    text-align: center;
+}
+
+/* Footer */
+
+.footerWidgets{
+    background-color: #D6D6D6;
+    display: flex;
+    padding: 60px 40px 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footerWidgets div{
+    margin: 0 0 12px;
+    padding: 0 0 0 40px;
+    flex-shrink: 0;
+    width: 20%;
+}
+
+.footerWidgets li a{
+    font-size: 17px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footerWidgets li{
+    margin: 0 0 5px;
+}
+
+.footerWidgets p{
+    color: #3A3A3A;
+    font-size: 17px;
+}
+
+.footerWidgets ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerWidgets h2{
+    color: #000000;
+    margin: 0 0 25px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.footerWidgets input{
+    line-height: 1.6;
+    margin: 0 0 12px;
+    padding: 10px 15px;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    border: 1px solid #CCCCCC;
+    background: #FAFAFA;
+    max-width: 100%;
+}
+
+.siteInfo{
+    background-color: #222222;
+    padding: 20px;
+}
+
+.copyright-bar{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+}
