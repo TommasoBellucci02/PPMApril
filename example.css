@@ -224,7 +224,7 @@ img{
 
 #mapHemp{
     box-shadow: 0 8px 10px rgba(0,0,0,0.4);
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
 }
 
 @media (max-width: 768px){
