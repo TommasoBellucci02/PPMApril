@@ -389,10 +389,7 @@ header{
 }
 
 #newspaperPage{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row-reverse;
+    overflow: hidden;
 }
 
 /* Section 6 */
